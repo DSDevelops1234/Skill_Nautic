@@ -1,6 +1,6 @@
 # SkillNautic
 
-A new Flutter project.
+Learn Management System
 
 ## Getting Started
 
