@@ -1,6 +1,6 @@
 # SkillNautic
 
-Learn Management System
+### **Learn Management System**
 
 ## Getting Started
 
