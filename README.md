@@ -382,4 +382,4 @@ If you want to run the app from VS Code:
 
 ---
 
-Your Flutter app should now be running on your physical device! 🚀.
+### Your Flutter app should now be running on your physical device! 🚀.
