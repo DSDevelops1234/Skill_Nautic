@@ -383,3 +383,44 @@ If you want to run the app from VS Code:
 ---
 
 ### Your Flutter app should now be running on your physical device! 🚀.
+
+# Default main.dart
+
+Run:
+```sh
+import 'package:flutter/material.dart';
+
+void main() {
+  runApp(const MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(
+        primarySwatch: Colors.blue,
+      ),
+      home: Dasboard(),
+    );
+  }
+}
+
+class Dasboard extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('Dashboard'),
+      ),
+      body: Container(
+        color: Colors.blue.shade300,
+      ),
+    );
+  }
+}
+
+```
