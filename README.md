@@ -384,10 +384,10 @@ If you want to run the app from VS Code:
 
 ### Your Flutter app should now be running on your physical device! 🚀.
 
-# Default main.dart
+## Remove Useless code from main.dart
 
-Run:
-```sh
+### main.dart:
+```dart
 import 'package:flutter/material.dart';
 
 void main() {
