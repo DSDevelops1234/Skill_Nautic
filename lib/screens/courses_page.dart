@@ -1,7 +1,7 @@
 // courses_page.dart
 
 import 'package:flutter/material.dart';
-import 'package:edu_connect_app/widgets/bottom_navigation.dart';
+// import 'package:edu_connect_app/widgets/bottom_navigation.dart';
 
 class CoursesPage extends StatelessWidget {
   const CoursesPage({super.key});

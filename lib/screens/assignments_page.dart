@@ -39,7 +39,7 @@ class EduConnectApp extends StatelessWidget {
       routes: {
         '/signup': (context) => const SignUpPage(),
         '/studentDashboard': (context) => const StudentDashboard(),
-        '/courses': (context) => const CoursesPage(),
+        '/courses': (context) => CoursesPage(),
         '/assignments': (context) =>
             const AssignmentsPage(), // Add AssignmentsPage route
       },

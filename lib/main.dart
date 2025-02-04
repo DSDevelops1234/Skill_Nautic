@@ -48,14 +48,14 @@ class _MainScaffoldState extends State<MainScaffold> {
 
   final List<Widget> _studentPages = [
     const StudentDashboard(),
-    const CoursesPage(),
+    CoursesPage(),
     const CollaborationPage(),
     ProfilePage(),
   ];
 
   final List<Widget> _teacherPages = [
     const TeacherDashboard(),
-    const CoursesPage(),
+    CoursesPage(),
     const CollaborationPage(),
     ProfilePage(),
   ];
